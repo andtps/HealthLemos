@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+}
+
+.HeaderContent {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative; /* Alterado para position: relative */
+  z-index: 2;
+}
+
+header .HealthLogo img {
+  width: 190px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.navbar a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* CSS das sections */
+
+section {
+  height: 300px;
+}
+
+span {
+  border: solid black 2px;
+  border-radius: 30px;
+  display: flex;
+  width: 40%;
+  margin: 0 auto 40px auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Contato links */
+
+.ImgLinks {
+  display: flex;
+  max-width: 700px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.ImgLinks .SocialImg {
+  display: block;
+  text-align: center;
+}
